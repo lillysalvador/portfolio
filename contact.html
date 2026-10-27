@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"/>
+    <meta name="keywords" content="Portfolio">
+    <title>Lilly Salvador's Portfolio | Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="main-nav">
+        <div class="logo">
+            <a href="index.html">
+                <img src="Portfolio%20Word%20Logo.png" alt="Lilly Salvador Logo">
+            </a>
+        </div>
+        <div class="nav-links">
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="interests.html">Interests</a>
+            <a class="nav-link active-nav" href="contact.html">Contact</a>
+        </div>
+    </nav>
+    <div class="section-container">
+        <h1 class="editorial-title">Let’s Shape a Narrative.</h1>
+        <p class="section-subtitle">Open to internships and creative opportunities wherever strategy, storytelling, and ideas come together.</p>
+        
+        <div class="contact-grid">
+            
+            <div style="display: flex; flex-direction: column; gap: 45px; padding-top: 10px;">
+                <div class="contact-method-row">
+                    <div class="guestbook-label" style="margin-bottom: 12px;">Direct Communication</div>
+                    <a href="mailto:your.email@domain.com" class="editorial-link">lillysalvador@comcast.net</a>
+                </div>
+
+                <div class="contact-method-row">
+                    <div class="guestbook-label" style="margin-bottom: 12px;">Digital Footprints</div>
+                    <div class="contact-social-flex" style="display: flex; gap: 24px;">
+                        <a href="https://www.linkedin.com/in/lilly-salvador" target="_blank" class="social-link">LinkedIn</a>
+                        <a href="https://www.instagram.com/rightsideoflilly/" target="_blank" class="social-link">Instagram</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="guestbook-column">
+                <h3 style="font-family: 'Playfair Display', serif; font-size: 22px; margin-bottom: 8px; color: var(--text-dark, #2b2b2b); font-weight: 400;">The Gallery Guestbook</h3>
+                <p style="font-size: 14px; color: #555555; margin-bottom: 30px; line-height: 1.6;">Skip the formal inquiries. Drop your name, where you're writing from, and a niche obsession you find fascinating.</p>
+                
+                <form action="https://formspree.io/f/xkoalrpq" method="POST">
+                    
+                    <div class="guestbook-form-group">
+                        <label class="guestbook-label">Your Name</label>
+                        <input type="text" name="name" required class="guestbook-input">
+                    </div>
+
+                    <div class="guestbook-form-group">
+                        <label class="guestbook-label">Where are you writing from?</label>
+                        <input type="text" name="location" placeholder="e.g., Clemson, SC" required class="guestbook-input">
+                    </div>
+
+                    <div class="guestbook-form-group">
+                        <label class="guestbook-label">Your Personal "Roman Empire" / Niche Obsession</label>
+                        <textarea name="obsession" rows="4" required class="guestbook-textarea" placeholder="What occupies your mind?"></textarea>
+                    </div>
+
+                    <div>
+                        <button type="submit" class="guestbook-submit">
+                            [ Drop a Note in the Guestbook ]
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+    </body>
+</html>

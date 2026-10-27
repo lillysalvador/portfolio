@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"/>
+    <meta name="keywords" content="Portfolio">
+    <title>Lilly Salvador's Portfolio | Strategy + Creative</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="entrance-screen">
+        <h1 class="entrance-title">Welcome</h1>
+        <button class="explore-btn" onclick="dismissEntrance()">EXPLORE MY WORK</button>
+        <div class="entrance-socials">
+            <a href="https://www.linkedin.com/in/lilly-salvador" target="_blank">LINKEDIN</a>
+            <a href="https://www.instagram.com/rightsideoflilly/" target="_blank">INSTAGRAM</a>
+            <a href="mailto:lillysalvador@comcast.net">EMAIL</a>
+        </div>
+    </div>
+
+    <nav id="main-nav">
+        <div class="logo">
+            <a href="index.html">
+                <img src="Portfolio%20Word%20Logo.png" alt="Lilly Salvador Logo">
+            </a>
+        </div>
+        <div class="nav-links">
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="interests.html">Interests</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <main id="home" class="page active section-container">
+        <section id="projects-grid-section" class="project-slider">
+            <div id="slide-container" class="slide-row">
+                <div class="slide-image-wrap">
+                    <img id="project-image" class="slide-image" src="" alt="Project preview">
+                </div>
+                <div class="slide-info">
+                    <h3 id="project-title" class="slide-title"></h3>
+                    <a id="project-link" class="slide-link" href="javascript:void(0)">
+                        <span>View Project</span>
+                        <span class="arrow">→</span>
+                    </a>
+                </div>
+            </div>
+            <div class="slide-nav">
+                <button id="prev-btn" aria-label="Previous project">‹</button>
+                <div class="slide-counter">
+                    <span id="current-index">01</span><span class="sep">/</span><span id="total-count">03</span>
+                </div>
+                <button id="next-btn" aria-label="Next project">›</button>
+            </div>
+        </section>
+    </main>
+    
+    <div id="under-armour" class="page section-container">
+        <div class="back-to-hub" onclick="navigateTo('home')">← Back to projects overview</div>
+        <h1 class="editorial-title">Reconnecting with Everyday Consumers</h1>
+        <p class="section-subtitle">A brand strategy project addressing Under Armour’s declining relevance with younger consumers. Through market research, competitor analysis, and audience insights, we identified an opportunity to build on the brand’s athletic roots while expanding into everyday lifestyle wear. Our “Grow Into More” strategy focuses on evolving Under Armour from a brand chosen for performance into one consumers choose for both style and self-expression, creating new ways for the brand to connect with people beyond sports.</p>
+        <div class="masonry-grid">
+            <div class="portfolio-item">
+                <img src="portfolioprojects/UA%20Slide1.png">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/UA%20Slide4.png">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/UA%20Slide7.png">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/UA%20Slide10.png">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/UA%20Slide13.png">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/UA%20Slide16.png">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/UA%20Slide19.png">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/UA%20Slide2.png">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/UA%20Slide5.png">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/UA%20Slide8.png">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/UA%20Slide11.png">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/UA%20Slide14.png">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/UA%20Slide17.png">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/UA%20Slide20.png">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/UA%20Slide3.png">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/UA%20Slide6.png">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/UA%20Slide9.png">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/UA%20Slide12.png">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/UA%20Slide15.png">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/UA%20Slide18.png">
+            </div>
+        </div>
+    </div>
+    
+    <div id="branding" class="page section-container">
+        <div class="back-to-hub" onclick="navigateTo('home')">← Back to projects overview</div>
+        <h1 class="editorial-title">Building a New Current in Jacksonville</h1>
+        <p class="section-subtitle">A semester-long project creating a brand identity for a fictional NBA expansion team in my hometown of Jacksonville, Florida. Designed the team’s visual identity and applied it to marketing materials, including postcards, booklets, and brochures, using Adobe Illustrator and InDesign. Brought the designs to life through hands-on print production using the HP Indigo 7900 and inline CMYK presses.</p>
+        <div class="masonry-grid">
+            <div class="portfolio-item">
+                <img src="portfolioprojects/DriftBrandStory%20(1).png">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/DriftBrandStory%20(2).png">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/DriftBrandStory%20(3).png">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/DriftBrandStory%20(4).png">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/DriftBrandStory%20(5).png">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/DriftBrandStory%20(6).png">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/DriftBrandStory%20(7).png">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/DriftBrandStory%20(8).png">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/DriftBrandStory%20(9).png">
+            </div>
+        </div>
+    </div>
+
+    <div id="school" class="page section-container">
+        <div class="back-to-hub" onclick="navigateTo('home')">← Back to project overview</div>
+        <h1 class="editorial-title">Academic Projects</h1>
+        <p class="section-subtitle">A collection of projects created throughout my Graphic Communications coursework, exploring different aspects of design and visual communication. Each project gave me the opportunity to experiment with new ideas, develop my skills, and bring creative concepts to life.</p>
+        <div class="masonry-grid">
+            <div class="portfolio-item">
+                <img src="portfolioprojects/NotepadMockup4400.png" alt="Personal Notepad">
+                <div class="portfolio-overlay">
+                    <h4>Personal Notepad GC4400</h4>
+                    <p>Designed on Illustrator, Printed on a Lithographic Press</p>
+                </div>
+            </div>
+            <div class="portfolio-item wide">
+                <img src="portfolioprojects/GreetingCard4400.png" alt="Valentines Greeting Card">
+                <div class="portfolio-overlay">
+                    <h4>Greeting Card GC4400</h4>
+                    <p>Designed on Illustrator, Printed on a HP Indigo 7000 Digital Press</p>
+                </div>
+            </div>
+            <div class="portfolio-item tall">
+                <img src="portfolioprojects/BusinessCard4400.png" alt="Personal Business Card">
+                <div class="portfolio-overlay">
+                    <h4>Personal Business Card GC4400</h4>
+                    <p>Designed on Illustrator, Printed on HP Indigo 7000 Digital Press</p>
+                </div>
+            </div>
+            <div class="portfolio-item tall">
+                <img src="portfolioprojects/Food%20Brand%20Logo%201050.png" alt="Eat Royal Brand 1">
+                <div class="portfolio-overlay">
+                    <h4>Food Brand Logo Design GC1050</h4>
+                    <p>Designed on Illustrator/Part 1</p>
+                </div>
+            </div>
+            <div class="portfolio-item wide">
+                <img src="portfolioprojects/Food%20Brand%20Pouch%201050.png" alt="Eat Royal Brand 2">
+                <div class="portfolio-overlay">
+                    <h4>Food Brand Pouch Design GC1050</h4>
+                    <p>Designed on Photoshop/Part 2</p>
+                </div>
+            </div>
+            <div class="portfolio-item wide">
+                <img src="portfolioprojects/Food%20Brand%20Pouch%20Mockup%201050.png" alt="Eat Royal Brand 3">
+                <div class="portfolio-overlay">
+                    <h4>Food Brand Pouch Mockup GC1050</h4>
+                    <p>Designed on Photoshop/Part 3</p>
+                </div>
+            </div>
+            <div class="portfolio-item tall">
+                <img src="portfolioprojects/PortraitPhoto3400.JPG" alt="Portrait Photography">
+                <div class="portfolio-overlay">
+                    <h4>Portrait Photography GC3400</h4>
+                    <p>Shot on Canon EOS Rebel T7 and Edited in Lightroom Classic</p>
+                </div>
+            </div>
+            <div class="portfolio-item tall">
+                <img src="portfolioprojects/ProductPhoto3400.jpg" alt="Product Photography">
+                <div class="portfolio-overlay">
+                    <h4>Product Photography GC3400</h4>
+                    <p>Shot on Canon EOS Rebel T7 and Edited in Lightroom Classic</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="photography" class="page section-container">
+        <div class="back-to-hub" onclick="navigateTo('home')">← Back to project overview</div>
+        <h1 class="editorial-title">Photography</h1>
+        <p class="section-subtitle">A collection of photographs that tell stories through everyday moments, capturing the people, places, and details that make each experience unique. </p>
+        <div class="masonry-grid">
+            <div class="portfolio-item">
+                <img src="portfolioprojects/Camp%20(1).jpg">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/Camp%20(2).jpg">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/Camp%20(3).jpg">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/Camp%20(4).jpg">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/Camp%20(5).jpg">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/Camp%20(6).jpg">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/Camp%20(7).jpg">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/Camp%20(8).jpg">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/Freelance%20(1).jpg">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/Freelance%20(2).jpg">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/Freelance%20(3).jpg">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/Freelance%20(4).jpg">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/Freelance%20(5).jpg">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/Freelance%20(6).jpg">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/Ireland%20(1).jpg">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/Ireland%20(2).jpg">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/Ireland%20(3).jpg">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/Ireland%20(4).jpg">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/Sports%20(1).jpg">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/Sports%20(2).jpg">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/Sports%20(3).jpg">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/Sports%20(4).jpg">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/Sports%20(5).jpg">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/Sports%20(6).jpg">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/Sports%20(7).jpg">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolioprojects/Sports%20(8).jpg">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const sliderProjects = [
+            {
+                title: "Under Armour Repositioning",
+                image: "UnderArmourCover.png",
+                page: "under-armour"
+            },
+            {
+                title: "The Jacksonville Drift",
+                image: "JaxDriftCover.png",
+                page: "branding"
+            },
+            {
+                title: "Academic Projects",
+                image: "AcademicCover.png",
+                page: "school"
+            },
+            {
+                title: "Photography",
+                image: "PhotographyCover.png",
+                page: "photography"
+            }
+        ];
+        
+        let sliderIndex = 0;
+        const projectImage = document.getElementById("project-image");
+        const projectTitle = document.getElementById("project-title");
+        const projectLink = document.getElementById("project-link");
+        const currentIndex = document.getElementById("current-index");
+        const totalCount = document.getElementById("total-count");
+        
+        // Display the selected project on the homepage//
+        function renderSlide() {
+            const project = sliderProjects[sliderIndex];
+            projectImage.src = project.image;
+            projectImage.alt = project.title;
+            projectTitle.textContent = project.title;
+            projectLink.href = "#" + project.page;
+            currentIndex.textContent = String(sliderIndex + 1).padStart(2, "0");
+            totalCount.textContent = String(sliderProjects.length).padStart(2, "0");
+        }
+        
+        // Switch to another project in the slider//
+        function goToSlide(index) {
+            sliderIndex = (index + sliderProjects.length) % sliderProjects.length;
+            renderSlide();
+        }
+        document.getElementById("prev-btn").addEventListener("click", function () {
+            goToSlide(sliderIndex - 1);
+        });
+        document.getElementById("next-btn").addEventListener("click", function () {
+            goToSlide(sliderIndex + 1);
+        });
+        
+        // Open the selected project gallery
+        document.getElementById("project-link").addEventListener("click", function(event) {
+        event.preventDefault();
+        navigateTo(sliderProjects[sliderIndex].page);
+        });
+        
+        // Show a page and hide the others //
+        function navigateTo(pageId) {
+        const pages = document.querySelectorAll(".page");
+        const targetPage = document.getElementById(pageId);
+        if (!targetPage) {
+            console.error("Page not found:", pageId);
+            return;
+        }
+        pages.forEach(function(page) {
+            page.classList.remove("active");
+            page.style.display = "none";
+        });
+        targetPage.classList.add("active");
+        targetPage.style.display = "block";
+        window.scrollTo(0, 0);
+        }
+        
+        // Return to the homepage from a project gallery //
+        document.querySelectorAll(".back-to-hub").forEach(function (button) {
+            button.addEventListener("click", function () {
+                navigateTo("home");
+            });
+        });
+        
+        // Hide the welcome screen when Explore is clicked //
+        function dismissEntrance() {
+            const entrance = document.getElementById("entrance-screen");
+            entrance.classList.add("dismissed");
+            window.scrollTo(0, 0);
+        }
+        
+        // Show the welcome screen once per browser tab session //
+        const entrance = document.getElementById("entrance-screen");
+        if (sessionStorage.getItem("hasVisitedHome")) {
+            entrance.style.display = "none";
+        } else {
+            sessionStorage.setItem("hasVisitedHome", "true");
+        }
+        
+        // Initialize the homepage slider //
+        renderSlide();
+    </script>
+</body>
+</html>
